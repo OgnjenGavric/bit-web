@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('./font/Raleway-VariableFont_wght.ttf') format('truetype'),
+      url('./font/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+  margin: 20px auto;
+  max-width: 800px;
+}
+.font1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.font2 {
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+.font3 {
+  font-family: 'Courier New', Courier, monospace;
+}
+.oblique {
+  font-style: oblique;
+}
+.font1 span {
+  font-weight: 900;
+  font-style: italic;
+}
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.heading {
+  font-family: 'Raleway', sans-serif;
+}
+.container-2 p:first-child {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.container-2 p {
+  text-transform: lowercase;
+  text-decoration: line-through;
+}
+.container-3 p:first-child {
+  letter-spacing: 5px;
+  text-align: left;
+}
+.container-3 p:nth-child(2) {
+  line-height: 200%;
+  text-align: center;
+}
+.container-3 p:nth-child(3) {
+  text-align: right;
+}
+.container-4 a {
+  color: inherit;
+  text-shadow: 1px 1px #200202;
+}
+.container-4 a:link {
+  color: red;
+}
+.container-4 a:visited {
+  color: black;
+}
+.container-4 a:hover {
+  color: green;
+}
+.container-4 a:focus {
+  color: blue;
+}
