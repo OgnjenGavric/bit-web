@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+    .row {
+      display: flex;
+    }
+    .left-columns {
+      width: 300px;
+      text-align: center;
+    }
+    .right-columns {
+      width: 100%;
+    }
+    h1 {
+      margin-left: 40px;
+    }
+    .logo {
+      height: 250px;
+    }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="left-columns">
+      <h1>test</h1>
+      <img 
+        src="https://seeklogo.com/images/F/FK_Partizan-logo-D1A90B8E2C-seeklogo.com.png" 
+        alt="Logo PFC" 
+        class="logo" 
+      >
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="right-columns">
+      <div class="video-youtube">
+        <h1>PFC</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AiNlbWKEsac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="video-html">
+        <h1>PFC HTML video</h1>
+        <video controls
+                loop
+                autoplay 
+                width="560"
+        >
+          <source src="weekend.mp4" />
+          <source src="weekend.ogg" />
+          <source src="weekend.webm" />
+      </video>
+      
+      </div>
+    </div>
+  </div>
+</body>
+</html>

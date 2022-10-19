@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Quiz</title>
+</head>
+<body>
+  
+  <form action="">
+    <fieldset>
+      <legend>School Quiz:</legend>
+    
+        <p><strong>1. question</strong> <br> Choose your favorite language:
+          <input type="radio" id="html" name="fav_language" value="HTML">
+          <label for="html">HTML</label>
+          <input type="radio" id="css" name="fav_language" value="CSS">
+          <label for="css">CSS</label>
+          <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+          <label for="javascript">JavaScript</label>
+        </p>
+        <hr>
+        <or><strong>2. question</strong> <br>
+          <label for="cars">Choose a car:</label>
+          <select id="cars" name="cars" size="4" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+          </select>
+        <span>or do you have a vehicle?</span>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> I have a bike</label>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> I have a car</label>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> I have a boat</label>
+        </p>
+        <hr>
+        <p><strong>3. question</strong> <br>
+          <textarea name="message" rows="10" cols="30" placeholder="Tell us something about yourself..."></textarea>
+        </p>
+        <hr>
+        <p><strong>4. question</strong> <br> 
+          <label for="lang">Choose a language:</label>
+          <select name="languages" id="lang">
+            <option value="javascript">JavaScript</option>
+            <option value="php">PHP</option>
+            <option value="java">Java</option>
+          </select>
+          <span> or browsers: </span>
+          <input list="browsers">
+          <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+        </p>
+        <hr>
+        <p><strong>5. question</strong><br>
+          <label for="birthday">Your Birthday:</label>
+          <input type="date" id="birthday" name="birthday">
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+  </fieldset>
+  </form>
+</body>
+</html>
