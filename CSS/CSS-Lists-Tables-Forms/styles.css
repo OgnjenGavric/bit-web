@@ -1,0 +1,114 @@
+/*
+****** My styles *****
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.container {
+  margin: 80px auto 100px;
+  max-width: 1024px;
+}
+ul, ol{
+  padding: 30px;
+}
+ul.list-1 {
+  list-style-type: circle;
+}
+ul.list-2 {
+  list-style-type: square;
+}
+ol.list-3 {
+  list-style-type: upper-alpha;
+}
+ol.list-4 {
+  list-style-type: upper-roman;
+}
+ul.list-5,
+ul.list-6 {
+  list-style-image: url('https://www.w3schools.com/css/sqpurple.gif');
+  width: 200px;
+  display: inline-block;
+}
+ul.list-6 {
+  list-style-position: inside;
+}
+#phone-specifications {
+  margin: auto;
+  border-collapse: collapse;
+  max-width: 768px;
+  width: 100%;
+}
+#phone-specifications th {
+  background-color: red;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#phone-specifications img {
+  height: 100px;
+}
+#phone-specifications td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
+#phone-specifications tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+#phone-specifications tr:nth-child(4):hover {
+  background-color: yellow;
+}
+/* Form Get */
+#form-get {
+  margin: auto;
+  border-radius: 25px 0 25px 0;
+  background-color: #f2f2f2;
+  padding: 50px;
+  max-width: 400px;
+  width: 100%;
+}
+#form-get div:first-child {
+  border-bottom: 2px solid #b7b7b7;
+  margin-bottom: 40px;
+}
+#form-get h2 {
+  text-align: center;
+  font-size: 35px;
+  padding: 0;
+  margin: 0 auto 20px;
+}
+#form-get h2 span{
+  color: orange;
+}
+#form-get .form-group {
+  margin-top: 20px;
+}
+#form-get input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 2px #888;
+  cursor: pointer;
+}
+#form-get input[type=submit] {
+  width: 100%;
+  background-color: #a73737;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#form-get input[type=submit]:hover {
+  /* cursor: url(./pointer.png), auto; */
+  background-color: green;
+  cursor: url(./pointer.png), auto;
+}
+
+
