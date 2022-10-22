@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  position: relative;
+}
+img {
+  width: 300px;
+}
+
+.first-img {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  margin-bottom: 70px;
+}
+.second-img {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.third-img {
+  position: absolute;
+  bottom: 0;
+}
+.top-link {
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: purple;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+/*
+*
+*  Navbar Menu
+*
+*/
+.navbar {
+  overflow: hidden;
+  background-color: #d58b04;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  padding: 20px 16px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #000;
+  padding: 20px 16px;
+  margin: 5px;
+  background-color: #c7c6c6;
+  font-family: inherit;
+}
+.navbar a:first-child {
+  background-color: #c7c6c6;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*
+*
+*  Arranging divs
+*
+*/
+.container-2 {
+  width: 960px;
+  margin: 50px auto;
+  background-color: purple;
+  color: transparent;
+}
+hr {
+  margin: 30px ;
+}
+.div {
+  width: 200px;
+  height: 200px;
+}
+.div-1,
+.div-4,
+.div-7 {
+  background-color: blueviolet;
+}
+.div-2,
+.div-5,
+.div-8 {
+  background-color: yellow;
+}
+.div-3,
+.div-6,
+.div-9 {
+  background-color: lightgreen;
+}
+.second-group {
+  position: relative;
+}
+.div-5 {
+  position: relative;
+  left: 100px;
+  top: -100px;
+}
+.div-6 {
+  position: relative;
+  left: 200px;
+  top: -200px;
+}
+
+.third-group {
+  position: relative;
+  height: 500px;
+}
+.div-7 {
+  position: absolute;
+  right: 0;
+}
+.div-8 {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+.div-9 {
+  position: absolute;
+  top: 200px;
+  right: 200px;
+}
+
+/*
+*
+*  Float
+*
+*/
+.container-3 {
+  width: 960px;
+  margin: 30px auto 0;
+  background-color: antiquewhite;
+}
+.container-3 nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #630c0c;
+}
+.container-3 nav li {
+  float: right;
+}
+.container-3 nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.container-3 nav li a:hover {
+  background-color: #630c0c;
+}
+
+.container-3 .hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.intro {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.home-intro-left .color-div {
+  width: 300px;
+  height: 200px;
+  background-color: blueviolet;
+}
+.home-intro-center .color-div {
+  width: 300px;
+  height: 200px;
+  background-color: yellowgreen;
+}
+.home-intro-right .color-div {
+  width: 300px;
+  height: 200px;
+  background-color: lightgreen;
+}
+.home-intro-right .aside {
+  
+  height: 300px;
+  background-color: orange;
+}
+.par-div {
+  padding: 10px;
+}
+.color-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.color-div ul {
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.color-div ul li {
+  padding: 10px 0;
+  border-bottom: 2px solid green;
+}
+.color-div a {
+  text-decoration: none;
+  color: green;
+}
+footer {
+  background-color: indigo;
+}
+.container-4 {
+  width: 960px;
+  margin: 0 auto;
+  color: white;
+}
+.container-4 p {
+  padding: 10px;
+}
