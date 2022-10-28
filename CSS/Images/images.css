@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-image: url(./img/brick-wall-texture.jpg);
+  background-attachment: fixed;
+}
+.container {
+  width: 960px;
+  padding: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.section-1 .img-first {
+  height: 200px;
+}
+.section-1 .img-second {
+  width: 200px;
+}
+.section-1 .img-third {
+  width: 200px;
+  height: 200px;
+}
+.section-2 {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: aquamarine;
+  background-image: url(./img/sea.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-attachment: fixed ;
+}
+
+.section-3 {
+  margin: 20px 0;
+  padding: 10px;
+  background-image: url(./img/brick-wall-texture-2.jpg);
+  background-size: contain;
+}
