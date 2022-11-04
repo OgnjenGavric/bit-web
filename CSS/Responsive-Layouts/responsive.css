@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+.emotion {
+  margin-right: 50px;
+}
+img.emotion-icon {
+  max-width: 100px;
+  width: 100%;
+  display: inline-block;
+}
+.designer {
+  display: flex;
+  flex-direction: column;
+}
+.designer h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+main {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 550px;
+  column-gap: 20px;
+}
+main h2 {
+  font-size: 30px;
+  font-weight: 400;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+.about {
+  padding: 10px;
+  border-right: 2px solid;
+}
+.posts {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+/*
+ Liquid/Fluid Layouts
+*/
+.container-2 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.container-2 main {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+
