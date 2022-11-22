@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #212121;
+  font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+  body .container {
+    width: 960px;
+    margin: 20px auto;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background: #607d8b; }
+
+/* --------Hedings------- */
+h1 {
+  padding: 20px 0;
+  text-align: center;
+  background: #d32f2f;
+  color: white; }
+
+h2 {
+  font: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  text-align: left;
+  background: #d32f2f;
+  color: white; }
+
+.title {
+  background-color: #d32f2f; }
+
+img, p.first-p, p.second-p, p.third-p {
+  height: 400px;
+  margin: 40px auto 40px;
+  display: block;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border: 2px solid #d32f2f; }
+
+table {
+  width: 100%;
+  color: black;
+  background: #757575;
+  border-collapse: collapse;
+  font: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  table tr {
+    border-bottom: 2px solid white; }
+  table td {
+    padding: 5px 0; }
+  table .even {
+    background-color: #bdbdbd; }
+  table td:first-child {
+    width: 300px;
+    padding-left: 10px; }
+
+p#footer {
+  margin-top: 100px;
+  color: white;
+  border-top: 1px solid white;
+  padding-top: 20px; }
+
+p.first-p {
+  border-color: red;
+  width: 300px; }
+
+p.second-p {
+  border-color: blue; }
+
+p.third-p {
+  border-color: green; }
+
+/*# sourceMappingURL=style.css.map */

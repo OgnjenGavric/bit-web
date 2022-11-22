@@ -1,0 +1,83 @@
+@import "./variables";
+@import "./mixins";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+  font: $font-body;
+  .container {
+    width: 960px;
+    margin: 20px auto;
+    border-top: 1px solid $color-white;
+    border-bottom: 1px solid $color-white;
+    background: #607d8b;
+  }
+}
+
+/* --------Hedings------- */
+h1 {
+  padding: 20px 0;
+  text-align: center;
+  background: $background-heading;
+  color: $color-white;
+}
+h2 {
+  font: $font-h2;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  text-align: left;
+  background: $background-heading;
+  color: $color-white;
+}
+.title {
+  background-color: $background-heading;
+}
+img {
+  height: 400px;
+  margin: 40px auto 40px;
+  display: block;
+  @include box-shadow();
+  border: 2px solid $background-heading;
+}
+table {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  background: #757575;
+  border-collapse: collapse;
+  font: $font-table;
+  tr {
+    border-bottom: 2px solid $color-white;
+  }
+  td {
+    padding: 5px 0;
+  }
+  .even {
+    background-color: #bdbdbd;
+  }
+  td:first-child {
+    width: 300px;
+    padding-left: 10px;
+  }
+}
+
+p#footer {
+  margin-top: 100px;
+  color: $color-white;
+  border-top: 1px solid $color-white;
+  padding-top: 20px;
+}
+
+p.first-p{
+  @extend img;
+  border-color: red;
+  width: 300px
+}
+p.second-p{
+  @extend img;
+  border-color: blue;
+}
+p.third-p{
+  @extend img;
+  border-color: green;
+}
