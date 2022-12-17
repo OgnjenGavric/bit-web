@@ -1,0 +1,25 @@
+.background-color-all {
+  background-color: rgb(46, 170, 170);
+}
+.secondList {
+  background-color: aqua;
+}
+.thirdList {
+  background-color: rgb(20, 92, 92);
+}
+.color-list {
+  background-color: blueviolet;
+  border: 1px solid #e22bcd;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.active {
+  background-color: red;
+}
+
+#form,
+input {
+  padding: 20px;
+  margin: 10px auto;
+}
