@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body {
+  background-color: silver;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#soccer-field {
+  background-image: url(./img/field.png);
+  background-size: cover;
+  height: 500px;
+  width: 800px;
+  position: relative;
+}
+#soccer-player {
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.disable-movement {
+  border: 1px solid #fff;
+  background-color: brown;
+  color: #fff;
+  padding: 12px 24px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+.enable-movement {
+  border: 1px solid #fff;
+  background-color: green;
+  color: #fff;
+}

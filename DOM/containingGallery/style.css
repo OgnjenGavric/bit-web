@@ -1,0 +1,10 @@
+img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid transparent;
+}
+
+img.wide {
+  width: 300px;
+}
