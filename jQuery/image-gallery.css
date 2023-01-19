@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery-container h2 {
+  text-align: center;
+  color: red;
+}
+
+.gallery-image {
+  margin: 10px;
+}
