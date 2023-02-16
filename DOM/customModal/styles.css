@@ -1,0 +1,99 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+html {
+  background-image: url('./img/wall.jpg');
+  background-size: cover;
+  background-position: center center;
+  font-size: 30px;
+}
+.button {
+  font-size: 22px;
+  line-height: 44px;
+  text-align: center;
+  background-color: #cc4331;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 5px 25px;
+  outline: 0 !important;
+  box-shadow: 0 4px 0 #af3a2a, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  transition: all 0.15s ease-in-out;
+  margin-top: -4px;
+}
+.button:hover {
+  background-color: #d25544;
+  box-shadow: 0 4px 0 #c4402f, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+.button:active {
+  margin-top: 0px;
+  box-shadow: none;
+}
+.button--close {
+  background-color: #f5f5f5;
+  color: #999;
+  box-shadow: 0 4px 0 #cecece, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  border: 2px solid #f5f5f5;
+}
+.button--close:hover {
+  background-color: #fff;
+  box-shadow: 0 4px 0 #b6b6b6, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+.button--accept {
+  background-color: #10489c;
+  box-shadow: 0 4px 0 #10259c, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  border: 2px solid #10259c;
+}
+.button--accept:hover {
+  background-color: #10259c;
+  box-shadow: 0 4px 0 #b6b6b6, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#modal-bg {
+  background-color: rgba(0, 0, 0, 0.45);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -10;
+  transition: opacity 0.25s ease-in-out, z-index 0.25s ease-in-out;
+}
+#modal-bg.active {
+  opacity: 1;
+  z-index: 10;
+}
+#modal-box {
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 800px;
+  min-width: 600px;
+  padding: 25px;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  opacity: 0;
+  z-index: -10;
+  transition: opacity 0.25s ease-in-out, z-index 0.25s ease-in-out;
+}
+#modal-box.active {
+  opacity: 1;
+  z-index: 11;
+}
+.modal-h,
+.modal-p {
+  font-family: 'Indie Flower', cursive;
+}
+.text-right {
+  text-align: right;
+}
